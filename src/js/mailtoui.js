@@ -871,8 +871,8 @@ var mailtouiApp = mailtouiApp || {};
      * Set copy button text to indicate the email address has been copied.
      */
     app.toggleCopyButton = function() {
-        button = document.getElementById(app.prefix('-button-copy'));
-        buttonText = document.getElementById(app.prefix('-button-text-copy'));
+        var button = document.getElementById(app.prefix('-button-copy'));
+        var buttonText = document.getElementById(app.prefix('-button-text-copy'));
         buttonText.innerHTML = options.buttonTextCopyAction;
         button.classList.add(app.prefix('-button-copy-clicked'));
 
