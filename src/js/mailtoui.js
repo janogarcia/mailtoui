@@ -357,21 +357,6 @@ var mailtouiApp = mailtouiApp || {};
         var emailField = document.getElementById(app.prefix('-email-address'));
         emailField.innerHTML = email;
 
-        var buttonIcon1 = document.getElementById(app.prefix('-button-icon-1'));
-        buttonIcon1.innerHTML = options.buttonIcon1;
-
-        var buttonIcon2 = document.getElementById(app.prefix('-button-icon-2'));
-        buttonIcon2.innerHTML = options.buttonIcon2;
-
-        var buttonIcon3 = document.getElementById(app.prefix('-button-icon-3'));
-        buttonIcon3.innerHTML = options.buttonIcon3;
-
-        var buttonIcon4 = document.getElementById(app.prefix('-button-icon-4'));
-        buttonIcon4.innerHTML = options.buttonIcon4;
-
-        var buttonIconCopy = document.getElementById(app.prefix('-button-icon-copy'));
-        buttonIconCopy.innerHTML = options.buttonIconCopy;
-
         app.toggleHideCopyUi(email);
     };
 
